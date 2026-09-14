@@ -12,11 +12,45 @@
 </head>
 <body>
 
+  <nav class="top-nav" aria-label="Main navigation">
+    <a class="top-nav-logo" href="index.html" aria-label="Intel home">
+      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="top-nav-links">
+      <span class="menu-icon" aria-hidden="true">&#9776;</span>
+      <span>Menu</span>
+    </button>
+    <div class="top-nav-links" id="top-nav-links">
+      <a href="#products">Products</a>
+      <a href="#support">Support</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#developers">Developers</a>
+      <a href="#partners">Partners</a>
+      <a href="#foundry">Foundry</a>
+    </div>
+  </nav>
+
+  <aside class="side-nav" aria-label="Environment navigation">
+    <button class="side-nav-toggle" type="button" aria-expanded="true" aria-label="Hide environment navigation">
+      <span class="show-nav-arrow" aria-hidden="true">&laquo;</span>
+      <span class="hide-nav-arrow" aria-hidden="true">&raquo;</span>
+    </button>
+    <button class="jump-toggle" type="button" aria-expanded="false" aria-controls="side-nav-links">
+      <span>Jump to</span><span class="jump-arrow" aria-hidden="true">&#9662;</span>
+    </button>
+    <div class="side-nav-links" id="side-nav-links">
+      <a href="#overview">Overview</a>
+      <a class="active" href="index.html">Timeline</a>
+      <a href="#climate">Climate</a>
+      <a href="#energy">Energy</a>
+      <a href="#water">Water</a>
+      <a href="#waste">Waste</a>
+    </div>
+  </aside>
+
   <!-- Header / Hero Section -->
   <header>
     <div>
-      <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
-      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
       <!-- Main Heading -->
       <h1>
         Sustainability Through the Ages
@@ -165,6 +199,27 @@
     <span class="mobile-instruction">Scroll to view timeline | Click on images to learn more!</span>
   </p>
   <script>
+    document.querySelector(".side-nav-toggle").addEventListener("click", function () {
+      var isOpen = this.getAttribute("aria-expanded") === "true";
+      this.setAttribute("aria-expanded", String(!isOpen));
+      this.setAttribute("aria-label", isOpen ? "Show environment navigation" : "Hide environment navigation");
+      document.body.classList.toggle("side-nav-collapsed", isOpen);
+    });
+
+    document.querySelector(".menu-toggle").addEventListener("click", function () {
+      var menu = document.querySelector(".top-nav-links");
+      var isOpen = this.getAttribute("aria-expanded") === "true";
+      this.setAttribute("aria-expanded", String(!isOpen));
+      menu.classList.toggle("is-open", !isOpen);
+    });
+
+    document.querySelector(".jump-toggle").addEventListener("click", function () {
+      var menu = document.querySelector(".side-nav-links");
+      var isOpen = this.getAttribute("aria-expanded") === "true";
+      this.setAttribute("aria-expanded", String(!isOpen));
+      menu.classList.toggle("is-open", !isOpen);
+    });
+
     document.querySelectorAll(".timeline-image").forEach(function (card) {
       var description = card.querySelector(".timeline-description");
 
