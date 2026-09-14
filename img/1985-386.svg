@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Intel 386 processor</title>
+  <desc id="desc">A stylized 32-bit processor with layered performance bars</desc>
+  <rect width="640" height="480" fill="#dceee8"/>
+  <path d="M120 350h400" stroke="#17324d" stroke-width="14" stroke-linecap="round"/>
+  <rect x="155" y="275" width="70" height="75" fill="#7d8791"/>
+  <rect x="260" y="225" width="70" height="125" fill="#0071c5"/>
+  <rect x="365" y="165" width="70" height="185" fill="#00a98f"/>
+  <path d="M170 145h285m-55-55 55 55-55 55" fill="none" stroke="#17324d" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="425" fill="#17324d" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">386 / 32-BIT</text>
+</svg>

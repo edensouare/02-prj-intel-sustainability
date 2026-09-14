@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Sustainability summit</title>
+  <desc id="desc">People gathered around a table beneath a connected sustainability symbol</desc>
+  <rect width="640" height="480" fill="#eef7f3"/>
+  <circle cx="320" cy="120" r="62" fill="#0071c5"/>
+  <path d="M285 120c30-42 77-34 87 4-28-14-48-8-63 17-13 21-29 11-24-21Z" fill="#8bc7b2"/>
+  <path d="M320 182v45" stroke="#00a98f" stroke-width="10"/>
+  <ellipse cx="320" cy="330" rx="230" ry="70" fill="#17324d"/>
+  <ellipse cx="320" cy="318" rx="190" ry="45" fill="#f4f6f8"/>
+  <circle cx="200" cy="265" r="27" fill="#00a98f"/><circle cx="270" cy="250" r="27" fill="#0071c5"/><circle cx="370" cy="250" r="27" fill="#8bc7b2"/><circle cx="440" cy="265" r="27" fill="#00a98f"/>
+  <path d="M170 305q30-35 60 0m-5-12q45-50 90 0m25 0q45-50 90 0m-5 12q30-35 60 0" fill="none" stroke="#17324d" stroke-width="14" stroke-linecap="round"/>
+  <text x="320" y="435" fill="#17324d" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">SHARED ACTION</text>
+</svg>

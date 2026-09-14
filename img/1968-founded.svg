@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Intel founded in 1968</title>
+  <desc id="desc">Two connected figures and a foundation block representing Intel's founding</desc>
+  <rect width="640" height="480" fill="#eef7f3"/>
+  <rect y="350" width="640" height="130" fill="#8bc7b2"/>
+  <rect x="135" y="300" width="370" height="50" rx="6" fill="#17324d"/>
+  <rect x="185" y="250" width="270" height="50" rx="6" fill="#0071c5"/>
+  <circle cx="235" cy="170" r="48" fill="#00a98f"/>
+  <circle cx="405" cy="170" r="48" fill="#7d8791"/>
+  <path d="M164 260c11-52 131-52 142 0Zm170 0c11-52 131-52 142 0Z" fill="#17324d"/>
+  <path d="M283 185h74m-48-26 26 26-26 26" fill="none" stroke="#f4f6f8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="425" fill="#17324d" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">1968 / FOUNDATION</text>
+</svg>

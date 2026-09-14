@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Intel 8086 processor</title>
+  <desc id="desc">An 8086 processor chip connected to an expanding architecture network</desc>
+  <rect width="640" height="480" fill="#eef7f3"/>
+  <g stroke="#7d8791" stroke-width="8" fill="none">
+    <path d="M320 220 180 120m140 100 140-100M320 220 180 320m140-100 140 100M320 220v150"/>
+  </g>
+  <circle cx="180" cy="120" r="22" fill="#00a98f"/><circle cx="460" cy="120" r="22" fill="#00a98f"/><circle cx="180" cy="320" r="22" fill="#0071c5"/><circle cx="460" cy="320" r="22" fill="#0071c5"/>
+  <rect x="240" y="140" width="160" height="160" rx="12" fill="#17324d" stroke="#f4f6f8" stroke-width="10"/>
+  <rect x="275" y="175" width="90" height="90" fill="#0071c5"/>
+  <path d="M295 195h50v50h-50Z" fill="none" stroke="#8bc7b2" stroke-width="9"/>
+  <text x="320" y="425" fill="#17324d" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle">8086 / X86</text>
+</svg>

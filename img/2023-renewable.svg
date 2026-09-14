@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Renewable electricity</title>
+  <desc id="desc">Sun, solar panels, and a wind turbine representing renewable electricity</desc>
+  <rect width="640" height="480" fill="#dceee8"/>
+  <circle cx="500" cy="105" r="58" fill="#f4c95d"/>
+  <path d="M0 345h640v135H0Z" fill="#8bc7b2"/>
+  <path d="M105 335 220 250l115 85Z" fill="#17324d"/>
+  <path d="M125 327h190l-95-67Z" fill="#0071c5"/>
+  <path d="M176 291h18v44h-18zm47-2h18v46h-18zm-70 23h18v23h-18zm47 0h18v23h-18zm47 0h18v23h-18z" fill="#f4f6f8"/>
+  <path d="M420 330V160" stroke="#17324d" stroke-width="10"/>
+  <path d="M420 160 370 115q-18 67 50 45Zm0 0 51-41q-17 68-51 41Zm0 0 6 66q-57-23-6-66Z" fill="#00a98f"/>
+  <text x="320" y="425" fill="#17324d" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">99% RENEWABLE</text>
+</svg>

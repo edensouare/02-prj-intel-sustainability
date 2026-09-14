@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">RISE strategy</title>
+  <desc id="desc">Four connected shapes representing responsible, inclusive, sustainable, and enabling goals</desc>
+  <rect width="640" height="480" fill="#eef7f3"/>
+  <circle cx="320" cy="230" r="155" fill="#17324d"/>
+  <path d="M320 75 400 155 320 235 240 155Z" fill="#00a98f"/>
+  <path d="M400 155 480 235 400 315 320 235Z" fill="#0071c5"/>
+  <path d="M320 235 400 315 320 395 240 315Z" fill="#8bc7b2"/>
+  <path d="M240 155 320 235 240 315 160 235Z" fill="#f4f6f8"/>
+  <text x="320" y="245" fill="#17324d" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">RISE</text>
+  <text x="320" y="440" fill="#17324d" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">2030 GOALS</text>
+</svg>

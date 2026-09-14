@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Net-zero by 2040</title>
+  <desc id="desc">A green planet inside a target representing the net-zero commitment</desc>
+  <rect width="640" height="480" fill="#dceee8"/>
+  <circle cx="320" cy="225" r="145" fill="none" stroke="#7d8791" stroke-width="28"/>
+  <circle cx="320" cy="225" r="98" fill="none" stroke="#00a98f" stroke-width="26"/>
+  <circle cx="320" cy="225" r="48" fill="#0071c5"/>
+  <path d="M278 215c20-52 95-59 105-7-22-12-43-9-61 13-15 18-29 17-44-6Z" fill="#8bc7b2"/>
+  <path d="M250 275c40 18 91 14 133-20-14 59-95 75-133 20Z" fill="#8bc7b2"/>
+  <text x="320" y="425" fill="#17324d" font-family="Arial, sans-serif" font-size="32" font-weight="700" text-anchor="middle">NET-ZERO 2040</text>
+</svg>

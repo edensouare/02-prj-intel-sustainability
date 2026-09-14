@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title description">
+  <title id="title">Sustainability milestone placeholder</title>
+  <desc id="description">A simple green and blue placeholder graphic</desc>
+  <rect width="640" height="480" fill="#dceee8"/>
+  <circle cx="320" cy="190" r="90" fill="#00a98f" opacity=".85"/>
+  <path d="M320 275c-70 0-125 45-150 115h300c-25-70-80-115-150-115Z" fill="#0071c5"/>
+  <text x="320" y="430" fill="#17324d" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">Intel sustainability</text>
+</svg>

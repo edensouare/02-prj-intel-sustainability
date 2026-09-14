@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Greenhouse gas emissions reduction</title>
+  <desc id="desc">A factory with visible greenhouse gas emissions</desc>
+  <rect width="640" height="480" fill="#dceee8"/>
+  <rect y="350" width="640" height="130" fill="#8bc7b2"/>
+  <rect x="90" y="215" width="250" height="135" fill="#17324d"/>
+  <rect x="120" y="175" width="45" height="175" fill="#244965"/>
+  <rect x="205" y="145" width="45" height="205" fill="#244965"/>
+  <rect x="290" y="190" width="45" height="160" fill="#244965"/>
+  <path d="M145 150c-20-40 35-47 20-86 62 45 20 91-20 86ZM240 125c-20-42 38-52 22-91 62 49 16 95-22 91Z" fill="#7d8791" opacity=".7"/>
+</svg>
