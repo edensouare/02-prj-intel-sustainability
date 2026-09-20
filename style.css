@@ -14,6 +14,7 @@ body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
+	zoom: 0.75;
 	color: var(--intel-ink);
 	background: white;
 	font-family: "Intel One Mono", monospace;
@@ -146,8 +147,23 @@ body {
 @media (min-width: 701px) {
 	body.side-nav-collapsed header,
 	body.side-nav-collapsed .timeline,
-	body.side-nav-collapsed > p {
+	body.side-nav-collapsed > p,
+	body.side-nav-collapsed .content-section,
+	body.side-nav-collapsed .details-section,
+	body.side-nav-collapsed .subscription-section,
+	body.side-nav-collapsed .site-footer {
 		margin-left: 48px;
+	}
+
+	html[dir="rtl"] body.side-nav-collapsed header,
+	html[dir="rtl"] body.side-nav-collapsed .timeline,
+	html[dir="rtl"] body.side-nav-collapsed > p,
+	html[dir="rtl"] body.side-nav-collapsed .content-section,
+	html[dir="rtl"] body.side-nav-collapsed .details-section,
+	html[dir="rtl"] body.side-nav-collapsed .subscription-section,
+	html[dir="rtl"] body.side-nav-collapsed .site-footer {
+		margin-right: 48px;
+		margin-left: 0;
 	}
 
 	body.side-nav-collapsed .side-nav {
@@ -185,7 +201,7 @@ header {
 
 header div {
 	max-width: 1120px;
-	margin: 0 auto;
+	margin: 0;
 	text-align: left;
 }
 
@@ -213,6 +229,11 @@ header p {
 	font-family: "Inter", sans-serif;
 	font-size: clamp(1rem, 1.5vw, 1.15rem);
 	line-height: 1.6;
+}
+
+header h1,
+header p {
+	text-align: left;
 }
 
 .timeline {
@@ -304,13 +325,118 @@ body > p {
 	text-align: center;
 }
 
+.content-section,
+.details-section,
+.subscription-section {
+	order: 6;
+	margin-left: 220px;
+	padding: clamp(40px, 6vw, 72px) clamp(24px, 7vw, 96px);
+	background: white;
+}
+
+.content-section > .container,
+.details-section > .container,
+.subscription-section > .container,
+.site-footer > .container {
+	max-width: none;
+	margin-right: 0;
+	margin-left: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.details-section {
+	background: var(--intel-gray);
+}
+
+.section-heading {
+	margin-bottom: 28px;
+	color: var(--intel-navy);
+	font-family: intel-one-display-medium, Helvetica, Arial, sans-serif;
+	font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.content-column {
+	display: flex;
+	flex-direction: column;
+	padding: 24px;
+	border: 1px solid var(--intel-line);
+	border-top: 4px solid var(--intel-blue);
+	background: white;
+	box-shadow: 0 2px 8px rgba(23, 50, 77, 0.08);
+}
+
+.content-column h3 {
+	color: var(--intel-navy);
+	font-family: intel-one-display-medium, Helvetica, Arial, sans-serif;
+}
+
+.content-column p {
+	flex-grow: 1;
+	font-family: "Inter", sans-serif;
+	line-height: 1.6;
+}
+
+.content-column .btn {
+	align-self: flex-start;
+}
+
+.subscription-section {
+	background: #e9f3f8;
+}
+
+.site-footer {
+	order: 7;
+	margin-left: 220px;
+	padding: 28px clamp(24px, 7vw, 96px);
+	background: var(--intel-navy);
+	color: white;
+	font-family: "Inter", sans-serif;
+}
+
+.footer-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 18px;
+}
+
+.footer-links a {
+	color: white;
+}
+
+html[dir="rtl"] .side-nav {
+	right: 0;
+	left: auto;
+	border-right: 0;
+	border-left: 1px solid var(--intel-line);
+}
+
+html[dir="rtl"] header,
+html[dir="rtl"] .timeline,
+html[dir="rtl"] body > p,
+html[dir="rtl"] .content-section,
+html[dir="rtl"] .details-section,
+html[dir="rtl"] .subscription-section,
+html[dir="rtl"] .site-footer {
+	margin-right: 220px;
+	margin-left: 0;
+}
+
+html[dir="rtl"] .side-nav a {
+	border-right: 3px solid transparent;
+	border-left: 0;
+}
+
+html[dir="rtl"] .side-nav a.active {
+	border-right-color: var(--intel-blue);
+}
+
 .mobile-instruction {
 	display: none;
 }
 
 @media (min-width: 701px) {
 	html {
-		scroll-snap-type: y mandatory;
 		scroll-padding-top: 72px;
 	}
 
@@ -440,8 +566,22 @@ body > p {
 
 	header,
 	.timeline,
-	body > p {
+	body > p,
+	.content-section,
+	.details-section,
+	.subscription-section,
+	.site-footer {
 		margin-left: 0;
+	}
+
+	html[dir="rtl"] header,
+	html[dir="rtl"] .timeline,
+	html[dir="rtl"] body > p,
+	html[dir="rtl"] .content-section,
+	html[dir="rtl"] .details-section,
+	html[dir="rtl"] .subscription-section,
+	html[dir="rtl"] .site-footer {
+		margin-right: 0;
 	}
 
 	header {
